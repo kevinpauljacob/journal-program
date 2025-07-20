@@ -121,7 +121,7 @@ pub struct JournalEntry {
 #[account]
 #[derive(InitSpace)]
 pub struct JournalCount {
-    pub count: i64,
+    pub count: u64,
     pub owner: Pubkey,
 }
 
